@@ -1,0 +1,7 @@
+@import "../components/card";
+@import "../components/tabs";
+.heading{
+    color: lighten($primary-color, 15%);
+    font-weight: 900;
+    @include heading-font;
+}

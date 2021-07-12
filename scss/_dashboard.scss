@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import "../scss/dashboard/variables";
+
+// Import Bootstrap
+@import "../vendor/bootstraps/scss/bootstrap";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "../scss/dashboard/mixins";
+@import "../scss/dashboard/global";
+@import "../scss/dashboard/utilities";
+
+// Custom Components
+@import "../scss/dashboard/dropdowns";
+@import "../scss/dashboard/navs";
+@import "../scss/dashboard/buttons";
+@import "../scss/dashboard/cards";
+// @import "charts.scss";
+// @import "login.scss";
+// @import "error.scss";
+@import "../scss/dashboard/footer";

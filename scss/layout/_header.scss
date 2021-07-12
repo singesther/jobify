@@ -1,0 +1,95 @@
+//importing navbar
+@import "../components/navbar";
+@import "../components/dropdown";
+#wrapper {
+  .top-header {
+    background: $white;
+    padding-bottom: 0;
+    // background: url("../../dist/img/bg.png") no-repeat right center $white;
+    padding: 0;
+    background-size: auto 100% !important;
+
+    .logo {
+      margin: 0;
+      padding: 10px 0;
+      text-align: center;
+      h1 {
+        color: lighten($primary-color, $amount: 11%);
+        font-size: 1rem;
+        text-indent: 0;
+        line-height: 1;
+      }
+      h1,
+      span {
+        width: 100%;
+        @include heading-font;
+        font-size: 18px;
+        display: inline-block;
+      }
+      a{
+        text-decoration: none;
+        border: 0;
+        outline: none;
+      }
+      img {
+        max-width: 80px;
+      }
+    }
+  }
+}
+#main-header {
+  @include serf-font;
+  margin-top: 0;
+  position: relative;
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    transform: translateY(-1%);
+    text-align: left;
+    .carousel-text {
+      font-size: 0.8em;
+      font-weight: 400;
+    }
+    .carousel-btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 6px 14px;
+      font-size: 1rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      text-align: center;
+      color: $white;
+      border-radius: 5rem;
+      border: none;
+      outline: none;
+      &-primary {
+        background: lighten($primary-color, $amount: 11%);
+        &:hover {
+          background: darken($primary-color, $amount: 11%);
+        }
+      }
+      &-secondary {
+        background: $secondary-color;
+        &:hover {
+          background: lighten($secondary-color, $amount: 11%);
+        }
+      }
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($full-black, 0.7);
+  }
+}

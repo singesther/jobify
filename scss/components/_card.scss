@@ -1,0 +1,25 @@
+.card {
+  border: 0;
+  // margin-bottom: 2rem;
+  // margin: rem;
+  border-radius: 0.7rem;
+  background: $white /*darken($white, $amount: 3%)*/;
+  border: none;
+  box-shadow: 0 0 8px rgba($full-black, $alpha: 0.3);
+
+  .card-body {
+    .card-title {
+      color: lighten($primary-color, 10%);
+      text-transform: capitalize;
+      font-weight: 600;
+      @include heading-font;
+      
+    }
+    .card-text{
+      color: $secondary-color;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    
+  }
+}

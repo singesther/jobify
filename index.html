@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="./vendor/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="./dist/css/job_seeker.min.css" />
+    <title>JobSeeker</title>
+</head>
+<body id="home">
+    <div id="wrapper">
+        
+        <!-- Navbar -->
+        <nav id="main-nav" class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Sky<span class="text-primary">Jobify</span></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#my-nav" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bx bx-menu-alt-right"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="my-nav">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how-it-work">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="findjob.php">Find Job</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="postjob.php">Post Job</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./affiliate/login.php">affiliate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.php">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header id="main-header">
+            <div id="my-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    
+                    <div class="carousel-item active">
+                        <img src="./assets/img/img1.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-caption">
+                            <!-- <p class="carousel-text"></p>
+                            <a href="./findjob.php" class="carousel-btn carousel-btn-primary">Find job</a>
+                            <a href="./postjob.php" class="carousel-btn carousel-btn-secondary">Post job</a> -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <div class="container my-5">
+            <div id="how-it-work" class="row section">
+                <div class="text-center my-5 col-12">
+                    <h2 class="heading">How it work</h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card h-100 text-left">
+                            <img class="card-img-top img-fluid" src="./assets/svgs/Personal.svg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Send us your CV</h4>
+                                <p class="card-text">Upload your CV and let us get you a job </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card h-100 text-left">
+                            <img class="card-img-top img-fluid" src="./assets/svgs/job-offer.svg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Post job</h4>
+                                <p class="card-text">Need worker? post Job</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-5">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card h-100 text-left">
+                            <img class="card-img-top img-fluid" src="./assets/svgs/Job-hunt.svg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Contribute/Suggest</h4>
+                                <p class="card-text">Get job with us</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="./vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="./vendor/popper.js/dist/umd/popper.min.js"></script>
+    <!-- Custom js -->
+    <script src="./dist/js/jobseeker.js"></script>
+</body>
+<footer class="bg-light text-center text-lg-start" style="position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: red;
+color: white;
+text-align: center;">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        &copy; Skyjobify 2021
+      
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</html>

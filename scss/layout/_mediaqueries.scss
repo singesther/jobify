@@ -1,0 +1,112 @@
+// < 768px
+@media screen and (max-width: 768px) {
+  #main-nav {
+    .navbar-nav {
+      max-height: 400px;
+      overflow-y: scroll;
+    }
+  }
+}
+
+//Small (sm) devices (landscape phones, 576px and up)
+
+@media screen and (min-width: 576px) {
+  #main-header {
+    .carousel-caption {
+      position: absolute;
+      top: 30%;
+      transform: translateY(-30%);
+      text-align: left;
+      .carousel-text {
+        font-size: 1.5em;
+      }
+      .carousel-btn {
+        padding: 8px 22px;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+//Medium (md) devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+  //Main header and captions
+  #wrapper {
+  .top-header {
+    padding-bottom: 0;
+    background: url("../../dist/img/bg.png") no-repeat right center $white;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+       h1 {
+         line-height: 1.5;
+      }
+      img {
+        max-width: 120px;
+      }
+    }
+  }
+}
+  #main-header {
+    .carousel-caption {
+      position: absolute;
+      top: 30%;
+      transform: translateY(-45%);
+      .carousel-text {
+        font-size: 1.5em;
+      }
+      .carousel-btn {
+        display: inline-block;
+        padding: 7px 32px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        &-primary {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+//Large (lg) devices (desktops, 992px and up)
+@media screen and (min-width: 992px) {
+  //Navbar
+  #main-nav {
+    padding-top: .95rem;
+    padding-bottom: .95rem;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 0 2.2em !important;
+        }
+      }
+    }
+  }
+  //Main header
+  #main-header {
+    .carousel-caption {
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      transform: translateY(-30%);
+      text-align: left;
+      .carousel-text {
+        font-size: 2em;
+        font-weight: 500;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+}
+
+//Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

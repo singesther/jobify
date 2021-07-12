@@ -1,0 +1,7 @@
+#main-footer{
+    background: lighten($primary-color, $amount: 14%);
+    overflow-x: hidden;
+    bottom: 0;
+    height: 100%;
+    @include heading-font;
+}

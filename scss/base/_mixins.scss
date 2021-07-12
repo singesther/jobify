@@ -1,0 +1,19 @@
+// Mixins Fonts
+@mixin serf-font {
+  font-family: "Roboto", sans-serif;
+}
+
+@mixin body-font {
+  font-family: "Open Sans", sans-serif;
+}
+
+@mixin heading-font {
+  font-family: "Poppins", sans-serif;
+}
+@mixin actively-focused-on-hover {
+    &:active,
+    &:focus,
+    &:hover {
+      color: lighten($primary-color, 11%);
+    }
+}

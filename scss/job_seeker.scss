@@ -1,0 +1,16 @@
+/*=== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;700&family=Roboto:wght@300;500;700&display=swap");
+// importing base styling
+@import "./base/variables";
+@import "../vendor/bootstraps/scss/bootstrap";
+@import "./base/mixins"; 
+@import "./base/page";
+@import "./components/form"; 
+@import "./utilities/animation";
+// Importing header main
+@import "./layout/header";
+@import "./layout/main";
+// Footer
+@import "./layout/footer";
+// Media queries
+@import "./layout/mediaqueries";
