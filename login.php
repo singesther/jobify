@@ -35,13 +35,13 @@ include_once('./server/server.login.php');
                             <a class="nav-link" href="#">How it works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="findjob.php">Find Job</a>
+                            <a class="nav-link" href="chekout.php">Apply as Jobify</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="postjob.php">Post Job</a>
+                            <a class="nav-link" href="postjob.php">Register Company</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./affiliate/login.php">affiliate</a>
+                            <a class="nav-link" href="./affiliate/login.php">Affiliate</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="login.php">Login</a>
