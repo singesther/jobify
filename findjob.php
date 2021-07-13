@@ -34,10 +34,10 @@ include_once('./server/server.find_job.php');
                             <a class="nav-link" href="#">How it works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="findjob.php">Find Job</a>
+                            <a class="nav-link active" href="checkout.php">Apply as Jobseeker</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="postjob.php">Post Job</a>
+                            <a class="nav-link" href="postjob.php">Register Company</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./affiliate/login.php">affiliate</a>

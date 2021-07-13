@@ -41,19 +41,19 @@ include_once('../server/logout.php');
                 <div class="sidebar-brand-icon">
                     <i class="bx bx-group"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">job<sup>Seeker</sup></div>
+                <div class="sidebar-brand-text mx-3">Sky<sup>Jobify</sup></div>
             </a>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <!-- <li class="nav-item active">
                 <a class="nav-link" href="index.php">
                     <i class="bx bx-cookie"></i>
                     <span>Dashboard</span>
                 </a>
-            </li>
+            </li> -->
             <li class="nav-item active">
                 <a class="nav-link" href="afilliate.php">
                     <i class="bx bx-cookie"></i>

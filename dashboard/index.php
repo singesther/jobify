@@ -54,12 +54,12 @@ include_once('../server/logout.php');
                     <span>Dashboard</span>
                 </a>
             </li>
-            <li class="nav-item active">
+            <!-- <li class="nav-item active">
                 <a class="nav-link" href="afilliate.php">
                     <i class="bx bx-cookie"></i>
                     <span>Afilliate</span>
                 </a>
-            </li>
+            </li> -->
 
             <!-- Divider -->
             <hr class="sidebar-divider">
